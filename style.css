@@ -26,20 +26,20 @@ body {
 `}
 
 .main-column {
-	flex: 3;
+	flex-basis: 50%; 
 	order: 2;
 	background-color: #0E7FB2;
-	/*margin: 0px 25px;  why is there no space between .main-column, .sidebar-one and .sidebar-two when i have justify-content: space-between when the media min-width is 900px */
+	/*margin: 0px 25px;*/
 }
 
 .sidebar-one {
-	flex: 1;
+	flex-basis: 23%;
 	order: 1;
 	background-color: #FF4760;
 }
 
 .sidebar-two {
-	flex: 1;
+	flex-basis: 23%;
 	order: 3;
 	background-color: #CCC410;
 }
