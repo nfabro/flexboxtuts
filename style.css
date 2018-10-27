@@ -80,10 +80,54 @@ body {
 	box-sizing: border-box;
 	display: flex;
 	flex-wrap: wrap;
-	justify-content: space-between;
+	justify-content: space-around;
 }
 
 img {
 	width: 300px;
 	height:150px;
+}
+
+.banner {
+	height: 400px;
+	max-width: 700px;
+	margin: 40px auto 40px auto;
+	background-color: #FF4760;
+	display: flex;
+}
+
+.center-me {
+	color: #fff;
+	font-size: 60px;
+	margin: auto;  /*to center the text*/
+}
+
+.equal-height-container {
+	max-width: 900px;
+	margin: 0 auto;
+	display: flex;
+}
+
+.first {
+	background-color: #2DBDFF;
+	padding: 20px;
+	flex: 1;
+}
+
+.second {
+	background-color: #CCC410;
+	padding: 20px;
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+}
+
+.second-a {
+	background-color: green;
+	flex: 1;
+}
+
+.second-b {
+	background-color: red;
+	flex: 1;
 }
