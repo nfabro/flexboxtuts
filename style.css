@@ -75,6 +75,8 @@ body {
 .feature:nth-child(3) {background-color: #CCC410;}
 
 .gallery {
+	padding: 20px;
+	margin: 20px;
 	box-sizing: border-box;
 	display: flex;
 	flex-wrap: wrap;
